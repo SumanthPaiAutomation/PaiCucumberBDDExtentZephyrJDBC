@@ -1,7 +1,3 @@
-C:\impper\Selenium-Cucumber-Pai-Task\selenium-cucumber-framework-main\src\test\java\StepDefinitions\WebStepDefinitions\LoginSteps.java
-C:\impper\Selenium-Cucumber-Pai-Task\selenium-cucumber-framework-main\src\test\java\StepDefinitions\WebStepDefinitions\SearchSteps.java
-C:\impper\Selenium-Cucumber-Pai-Task\selenium-cucumber-framework-main\src\test\java\StepDefinitions\WebStepDefinitions\ProductDetailSteps.java
-C:\impper\Selenium-Cucumber-Pai-Task\selenium-cucumber-framework-main\src\test\java\StepDefinitions\WebStepDefinitions\WebHook.java
-C:\impper\Selenium-Cucumber-Pai-Task\selenium-cucumber-framework-main\src\test\java\StepDefinitions\WebStepDefinitions\CartSteps.java
-C:\impper\Selenium-Cucumber-Pai-Task\selenium-cucumber-framework-main\src\test\java\StepDefinitions\WebStepDefinitions\HomeSteps.java
-C:\impper\Selenium-Cucumber-Pai-Task\selenium-cucumber-framework-main\src\test\java\Runners\WebTestRunner.java
+C:\PaiCucumberBDDSeleniumJavaFramework\src\test\java\StepDefinitions\WebStepDefinitions\CheapestTicketSteps.java
+C:\PaiCucumberBDDSeleniumJavaFramework\src\test\java\Runners\ExtentRunner.java
+C:\PaiCucumberBDDSeleniumJavaFramework\src\test\java\StepDefinitions\WebStepDefinitions\ExtentWebHook.java

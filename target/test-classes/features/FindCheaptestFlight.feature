@@ -1,4 +1,5 @@
 @Web
+  #@ZephyrTestCaseId=UI-001
   Feature: Ticket Booking feature
     Scenario: To Book Cheapest flight from Bangalore to Delhi
       Given I have the url of the booking website

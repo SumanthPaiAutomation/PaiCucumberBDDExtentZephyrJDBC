@@ -11,7 +11,7 @@ import java.util.Properties;
 
 public class ConfigFileReader {
 
-    private final Properties properties;
+    private static  Properties properties;
 
     public ConfigFileReader() {
         BufferedReader bufferedReader;
@@ -83,5 +83,36 @@ public class ConfigFileReader {
             default:
                 throw new RuntimeException("Environment type key value in configuration file is not matched: " + environmentName);
         }
+    }
+    public static String getReportConfigPath(){
+        String reportConfigPath = properties.getProperty("reportConfigPath");
+        if(reportConfigPath!= null) return reportConfigPath;
+        else throw new RuntimeException("Report Config Path not specified in the Configuration.properties file for the Key:reportConfigPath");
+    }
+
+    //zapiurl=
+    //zapiprojectid=
+    //zapiversionid=
+    //zapiissuekey=
+    //zapicycleid=
+
+    public String getZapiURl(){
+        return properties.getProperty("zapiurl");
+    }
+
+    public String getZapiProjectID(){
+        return properties.getProperty("zapiprojectid");
+    }
+
+    public String getZapiVersionID(){
+        return properties.getProperty("zapiversionid");
+    }
+
+    public String getZapiIssueKey(){
+        return properties.getProperty("zapiissuekey");
+    }
+
+    public String getZapiCycleID(){
+        return properties.getProperty("zapicycleid");
     }
 }

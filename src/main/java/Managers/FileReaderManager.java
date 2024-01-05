@@ -1,6 +1,10 @@
 package Managers;
 
 import DataProviders.ConfigFileReader;
+import com.fasterxml.jackson.databind.deser.SettableAnyProperty;
+import org.apache.commons.lang3.SystemProperties;
+
+import java.util.Properties;
 
 public class FileReaderManager {
 
@@ -16,4 +20,5 @@ public class FileReaderManager {
     public ConfigFileReader getConfigFileReader() {
         return (configFileReader == null) ? new ConfigFileReader() : configFileReader;
     }
+
 }

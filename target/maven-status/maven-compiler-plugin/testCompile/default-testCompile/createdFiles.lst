@@ -1,7 +1,1 @@
-StepDefinitions\WebStepDefinitions\CartSteps.class
-Runners\WebTestRunner.class
-StepDefinitions\WebStepDefinitions\HomeSteps.class
-StepDefinitions\WebStepDefinitions\WebHook.class
-StepDefinitions\WebStepDefinitions\ProductDetailSteps.class
-StepDefinitions\WebStepDefinitions\LoginSteps.class
-StepDefinitions\WebStepDefinitions\SearchSteps.class
+StepDefinitions\WebStepDefinitions\CheapestTicketSteps.class

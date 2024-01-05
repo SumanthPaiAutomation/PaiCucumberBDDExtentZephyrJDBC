@@ -1,12 +1,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Test Suite" verbose="1">
-    <listeners>
-        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
-    </listeners>
-
     <test name="Test">
         <classes>
-            <class name="StepDefinitions.WebStepDefinitions.CheapestTicketSteps"/>
+            <class name="Runners.ExtentRunner"/>
         </classes>
     </test>
 </suite>
